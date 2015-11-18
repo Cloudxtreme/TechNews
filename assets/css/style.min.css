@@ -57,14 +57,52 @@ body {
   background-position: center;
   background-size: 100% 100%; }
 
-/* END: CONTENT */
-/* SECTION */
 .posts-hght {
   height: 60px; }
   .posts-hght h3 {
     line-height: 60px;
     font-size: 1.25em; }
 
-/* END: SECTION */
+.panel {
+  margin-bottom: 5px; }
+
+@media screen and (max-width: 767px) {
+  .posts-hght {
+    font-size: 1.25em; }
+
+  .panel h4 {
+    font-size: 1.75em; }
+  .panel p, .panel a {
+    font-size: 1.25em; } }
+.author {
+  color: #ED2B23; }
+
+.load-more {
+  height: 40px; }
+
+.text-load-more {
+  line-height: 40px;
+  font-size: 1.25em; }
+
+.one-border {
+  border-top: 1px solid #ddd;
+  margin-top: 19px; }
+
+.thumbnail {
+  margin-bottom: 5px; }
+
+.border-dashed {
+  border-top: 1px dashed #4C4C4E; }
+
+.each-comments, .form-comment {
+  margin: 20px 0; }
+
+.border-default {
+  border-top: 1px solid #ddd; }
+
+.text-send {
+  color: #ED2B23; }
+
+/* END: CONTENT */
 
 /*# sourceMappingURL=style.min.css.map */
