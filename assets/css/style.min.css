@@ -28,7 +28,7 @@ body {
 /* NAVIGATION */
 .logo {
   width: 150px;
-  height: 100%; }
+  height: 50px; }
 
 .navbar-main {
   background: #FFF;
@@ -73,6 +73,9 @@ body {
   .panel h4 {
     font-size: 1.75em; }
   .panel p, .panel a {
+    font-size: 1.25em; }
+
+  #comment {
     font-size: 1.25em; } }
 .author {
   color: #ED2B23; }
@@ -100,9 +103,62 @@ body {
 .border-default {
   border-top: 1px solid #ddd; }
 
+.form-comment textarea {
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -o-border-radius: 0px;
+  border-radius: 0px; }
+
 .text-send {
   color: #ED2B23; }
 
 /* END: CONTENT */
+/* CATEGORY */
+.category {
+  margin-top: 30px; }
+
+/* END: CATEGORY */
+/* ABF */
+.ABF {
+  background-color: #4C4C4E;
+  color: #FFF; }
+
+.brand-bottom {
+  float: none; }
+
+.footer-title {
+  height: 60px; }
+  .footer-title h4 {
+    line-height: 60px; }
+
+.footer-leading {
+  height: 70px; }
+
+.white-link {
+  color: #FFF; }
+  .white-link:hover {
+    color: #FFF; }
+
+.footer-leading-2 {
+  height: 35px; }
+
+.contact-form .form-control {
+  background: transparent;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -o-border-radius: 0px;
+  border-radius: 0px;
+  color: #FFF; }
+  .contact-form .form-control:focus {
+    border-color: #ED2B23; }
+.contact-form button {
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -o-border-radius: 0px;
+  border-radius: 0px;
+  background: #ED2B23;
+  color: #FFF; }
+
+/* END: ABF */
 
 /*# sourceMappingURL=style.min.css.map */

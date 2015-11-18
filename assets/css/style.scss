@@ -4,6 +4,13 @@ $fonts: 'Titillium Web', sans-serif;
 $white: #FFF;
 $light-black: #ddd;
 
+@mixin border-radius{
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -o-border-radius: 0px;
+    border-radius: 0px;
+}
+
 /* GENERAL */
 body{
     font-family: $fonts;
@@ -38,7 +45,7 @@ body{
 /* NAVIGATION */
 .logo{
     width: 150px;
-    height: 100%;
+    height: 50px;
 }
 .navbar-main{
     background: $white;
@@ -94,6 +101,9 @@ body{
             @extend p;
         }
     }
+    #comment{
+        font-size: 1.25em;
+    }
 }
 .author{
     color: $red;
@@ -123,8 +133,58 @@ body{
 }
 .form-comment{
     @extend .each-comments;
+    textarea{
+        @include border-radius;
+    }
 }
 .text-send{
     color: $red;
 }
 /* END: CONTENT */
+/* CATEGORY */
+.category{
+    margin-top: 30px;
+}
+/* END: CATEGORY */
+/* ABF */
+.ABF{
+    background-color: $black;
+    color: $white;
+}
+.brand-bottom{
+    float: none;
+}
+.footer-title{
+    height: 60px;
+    h4{
+        line-height: 60px;
+    }
+}
+.footer-leading{
+    height: 70px;
+}
+.white-link{
+    color: $white;
+    &:hover{
+        color: $white;
+    }
+}
+.footer-leading-2{
+    height: 35px;
+}
+.contact-form{
+    .form-control{
+        background: transparent;
+        @include border-radius;
+        color: $white;
+        &:focus{
+            border-color: $red;
+        }
+    }
+    button{
+        @include border-radius;
+        background: $red;
+        color: $white;
+    }
+}
+/* END: ABF */
