@@ -78,10 +78,18 @@ body {
     padding: 5.5% 0; } }
 /* END: NAVIGATION */
 /* CONTENT */
-.content {
-  background: url("../img/cover_coding.jpg") no-repeat;
-  background-position: center;
-  background-size: 100% 100%; }
+.carousel-control {
+  top: 10%;
+  width: 7%;
+  bottom: 84.5%; }
+
+.carousel-control.left {
+  background: transparent;
+  left: auto;
+  right: 5%; }
+
+.carousel-control.right {
+  background: transparent; }
 
 .posts-hght {
   height: 60px; }
@@ -92,6 +100,16 @@ body {
 .panel {
   margin-bottom: 5px; }
 
+.carousel-caption {
+  right: 0;
+  left: 2%;
+  bottom: 80%; }
+
+@media screen and (max-width: 991px) {
+  .carousel-caption {
+    bottom: 75%; }
+    .carousel-caption h1 {
+      font-size: 1.5em; } }
 @media screen and (max-width: 767px) {
   .posts-hght {
     font-size: 1.25em; }
@@ -102,7 +120,19 @@ body {
     font-size: 1.25em; }
 
   #comment {
-    font-size: 1.25em; } }
+    font-size: 1.25em; }
+
+  .carousel-control.left {
+    right: 9.5%; }
+
+  .carousel-control {
+    width: 11%; }
+
+  .carousel-caption {
+    bottom: 71%; }
+    .carousel-caption h1 {
+      font-size: 1.25em;
+      margin-bottom: 5px; } }
 .author {
   color: #ED2B23; }
 
