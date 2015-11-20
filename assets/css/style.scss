@@ -1,8 +1,13 @@
-$black: #4C4C4E;
-$red: #ED2B23;
+$black: #4c4c4e;
+$red: #Ed2b23;
 $fonts: 'Titillium Web', sans-serif;
-$white: #FFF;
+$white: #fff;
 $light-black: #ddd;
+$bg-fb: #43639d;
+$bg-gplus: #ef4135;
+$bg-twitter: #2ca8df;
+$bg-linkedin: #1c80ba;
+$grey: #777;
 
 @mixin border-radius{
     -webkit-border-radius: 0px;
@@ -10,7 +15,12 @@ $light-black: #ddd;
     -o-border-radius: 0px;
     border-radius: 0px;
 }
-
+@mixin transition{
+    -webkit-transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+}
 /* GENERAL */
 body{
     font-family: $fonts;
@@ -22,7 +32,6 @@ body{
     padding:0;
 }
 /* END: GENERAL */
-
 /* BREAKING-NEWS */
 .breaking-news-text, .breaking-news-content{
     height: 40px;
@@ -76,6 +85,11 @@ body{
 }
 .navbar-search{
     border: none;
+    button{
+        &:hover{
+            @include transition;
+        }
+    }
 }
 .navbar-header{
     height: 90px;
@@ -86,16 +100,42 @@ body{
 .navbar{
     border: none;
 }
+.dropdown-menu{
+    >li{
+        >a{
+            padding: 6px 20px;
+            color: $grey;
+            &:hover{
+                background: none;
+                @include transition;
+            }
+        }
+    }
+}
+.navbar-nav{
+    >li{
+        >a{
+            &:hover{
+                @include transition;
+            }
+        }
+    }
+}
 @media screen and (min-width: 768px){
     .navbar-nav{
         height: 90px;
         >li{
-            margin: 20px 0;
+            margin: 20px 6.5px 20px 0;
         }
     }
     .navbar-search{
         height: 90px;
         padding: 5.5% 0;
+        .form-control{
+            &:focus{
+                border-color: transparent;
+            }
+        }
     }
 }
 /* END: NAVIGATION */
@@ -104,6 +144,9 @@ body{
     top: 10%;
     width: 7%;
     bottom: 84.5%;
+    &:hover{
+        @include transition;
+    }
 }
 .carousel-control.left{
     background: transparent;
@@ -182,8 +225,43 @@ body{
     border-top: 1px solid $light-black;
     margin-top: 19px;
 }
+a.thumbnail:hover{
+    border-color: transparent;
+}
 .thumbnail{
     margin-bottom: 5px;
+}
+.bg-widget-fb{
+    background: $bg-fb;
+}
+.bg-widget-twitter{
+    background: $bg-twitter;
+}
+.bg-widget-gplus{
+    background: $bg-gplus;
+}
+.bg-widget-linkedin{
+    background: $bg-linkedin;
+}
+.widget{
+    margin-left: inherit;
+    margin-right: inherit;
+}
+.follower{
+    color: $white;
+    font-size: 1.5em;
+}
+.widget-content{
+    margin-right: 5px;
+}
+.following{
+    @extend .follower;
+    font-size: 1em;
+    display: inline-block;
+    margin-right: 8px;
+}
+.padding-following{
+    padding-left: 0;
 }
 .border-dashed{
     border-top: 1px dashed $black;
@@ -196,12 +274,33 @@ body{
 }
 .form-comment{
     @extend .each-comments;
-    textarea{
+    .form-control{
+        &:focus{
+            border-color: $light-black;
+        }
         @include border-radius;
     }
 }
 .text-send{
     color: $red;
+    &:hover{
+        color: $black;
+        text-decoration: none;
+        @include transition;
+    }
+    font-size: 1.17em;
+}
+.black-link{
+    color: $red;
+    &:hover{
+        color: $black;
+        text-decoration: none;
+        @include transition;        
+    }
+}
+.content-posts{
+    font-size: 1.17em;
+    color: lighten($black, 15%);
 }
 /* END: CONTENT */
 /* CATEGORY */
@@ -231,7 +330,9 @@ body{
 .white-link{
     color: $white;
     &:hover{
-        color: $white;
+        text-decoration: none;
+        @include transition;
+        color: $red;
     }
 }
 .footer-leading-2{
@@ -243,13 +344,16 @@ body{
         @include border-radius;
         color: $white;
         &:focus{
-            border-color: $red;
+            border-color: $light-black;
         }
     }
-    button{
-        @include border-radius;
+    .btn-send{
         background: $red;
         color: $white;
+        &:hover{
+            @include transition;
+            color: $black;
+        }
     }
 }
 @media screen and (max-width: 991px){
