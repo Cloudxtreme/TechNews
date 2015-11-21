@@ -94,19 +94,54 @@ body{
             padding: 6px 20px;
             color: $grey;
             &:hover{
+                color: $red;
                 background: none;
                 @include transition;
             }
         }
     }
 }
-.navbar-nav{
-    >li{
-        >a{
-            &:hover{
-                @include transition;
+.navbar-default{
+    .navbar-nav{
+        >li{
+            >a{
+                &:hover{
+                    color: $red;
+                    @include transition;
+                }
+                &:focus{
+                    color: $grey;
+                }
             }
         }
+        .on{
+            >a{
+                color: $red;            
+                background: none;
+            }
+        }
+        >.open{
+            >a{
+                color: $red;
+                background: none;
+
+            }
+            .dropdown-menu{
+                >li{
+                    >a{
+                        &:hover{
+                            color: $red;
+                            background: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.btn-search{
+    &:hover{
+        background-color: $red;
     }
 }
 @media screen and (min-width: 768px){
@@ -508,3 +543,48 @@ footer{
     padding: 15px 0;
 }
 /* END: FOOTER */
+/* LOG IN AND SIGN UP */
+.login{
+    color: $white;
+    margin-bottom: 5px;
+}
+.panel-custom{
+    background: $black;
+    max-width: 400px;
+    margin: 0 auto;
+}
+.form-loginandsignup{
+    .form-control{
+        background: transparent;        
+        @include border-radius;
+        color: $white;
+        &:focus{
+            border-color: $light-black;
+        }
+        padding: 20px 12px;
+        font-size: 1.17em;
+    }
+}
+.btn-loginandsignup{
+    display: block;
+    width: 100%;
+    background: red;
+    color: $white;
+    &:hover{
+        @include transition;        
+        color: $black;
+    }
+    margin-bottom: 25px;
+    padding: 10px;
+    font-size: 1.17em;
+}
+.fyp{
+    display: block;
+}
+.text-loginandsignup{
+    margin: 20px 0;
+}
+.signup{
+    @extend .login;
+}
+/* END: LOG IN AND SIGN UP*/

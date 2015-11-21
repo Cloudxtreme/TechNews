@@ -63,17 +63,33 @@ body {
   padding: 6px 20px;
   color: #777; }
   .dropdown-menu > li > a:hover {
+    color: #ed2b23;
     background: none;
     -webkit-transition: all 0.4s ease 0s;
     -moz-transition: all 0.4s ease 0s;
     -o-transition: all 0.4s ease 0s;
     transition: all 0.4s ease 0s; }
 
-.navbar-nav > li > a:hover {
+.navbar-default .navbar-nav > li > a:hover {
+  color: #ed2b23;
   -webkit-transition: all 0.4s ease 0s;
   -moz-transition: all 0.4s ease 0s;
   -o-transition: all 0.4s ease 0s;
   transition: all 0.4s ease 0s; }
+.navbar-default .navbar-nav > li > a:focus {
+  color: #777; }
+.navbar-default .navbar-nav .on > a {
+  color: #ed2b23;
+  background: none; }
+.navbar-default .navbar-nav > .open > a {
+  color: #ed2b23;
+  background: none; }
+.navbar-default .navbar-nav > .open .dropdown-menu > li > a:hover {
+  color: #ed2b23;
+  background: none; }
+
+.btn-search:hover {
+  background-color: #ed2b23; }
 
 @media screen and (min-width: 768px) {
   .navbar-nav {
@@ -429,5 +445,49 @@ footer {
   padding: 15px 0; }
 
 /* END: FOOTER */
+/* LOG IN AND SIGN UP */
+.login, .signup {
+  color: #fff;
+  margin-bottom: 5px; }
+
+.panel-custom {
+  background: #4c4c4e;
+  max-width: 400px;
+  margin: 0 auto; }
+
+.form-loginandsignup .form-control {
+  background: transparent;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -o-border-radius: 0px;
+  border-radius: 0px;
+  color: #fff;
+  padding: 20px 12px;
+  font-size: 1.17em; }
+  .form-loginandsignup .form-control:focus {
+    border-color: #ddd; }
+
+.btn-loginandsignup {
+  display: block;
+  width: 100%;
+  background: red;
+  color: #fff;
+  margin-bottom: 25px;
+  padding: 10px;
+  font-size: 1.17em; }
+  .btn-loginandsignup:hover {
+    -webkit-transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+    color: #4c4c4e; }
+
+.fyp {
+  display: block; }
+
+.text-loginandsignup {
+  margin: 20px 0; }
+
+/* END: LOG IN AND SIGN UP*/
 
 /*# sourceMappingURL=style.min.css.map */

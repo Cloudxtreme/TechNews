@@ -1,73 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>TechNews</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="shortcut icon" href="assets/img/technews-icon.ico">
-	<link rel="stylesheet" type="text/css" href="assets/vendor/bootstrap/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/style.min.css">
-</head>
-<body>
-	<div class="container-fluid no-padding">
-		<!-- BREAKING-NEWS -->
-		<section class="breaking-news">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-2 col-sm-3 hidden-xs">
-						<p class="text-uppercase breaking-news-text no-margin">Breaking news</p>
-					</div>
-					<div class="col-md-10 col-sm-9 hidden-xs">
-						<div class="breaking-news-content">
-							<marquee><a class="white-link" href="#">Uda Uni Yuk Ikutan Hackathon Sumbar 1.0</a> | <a class="white-link" href="#">Yuk Nonton Livestream Chrome Dev Summit 2015</a> | <a class="white-link" href="#">Punya Skill Python? Yuk Kerja Remote</a></marquee>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- END: BREAKING-NEWS -->
-
-		<!-- NAVIGATION-MAIN -->
-		<nav class="nav navbar-default navbar-static-top navbar-main">
-			<div class="container">
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-technews-navbar-collapse" aria-expanded="false">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					</button>
-					<a class="navbar-brand no-padding" href="#"><img class="logo logo-top" src="assets/img/technews-logo.png" alt="technews"/></a>
-				</div>
-				<div class="navbar navbar-collapse navbar-right no-margin collapse" id="bs-technews-navbar-collapse">
-					<ul class="nav navbar-nav">
-						<li><a href="#">Home<span class="sr-only">(current)</span></a></li>
-						<li class="dropdown">
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Kategori<span class="caret"></span></a>
-							<ul class="dropdown-menu">
-								<li><a href="#">Popular Posts</a></li>	
-								<li><a href="#">All Posts</a></li>						
-								<li><a href="#">News</a></li>
-								<li><a href="#">Info</a></li>
-								<li><a href="#">Event</a></li>
-								<li><a href="#">Tips & Trik</a></li>
-								<li><a href="#">Tools</a></li>
-							</ul>
-						</li>		
-						<li><a href="#">Log in</a></li>
-						<li><a href="#">Sign up</a></li>		
-					</ul>
-					<form class="navbar-form navbar-right no-margin no-padding navbar-search" role="search">
-						<div class="form-group form-search">
-							<input type="text" class="form-control" placeholder="Search">
-						</div>
-						<button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
-					</form>	
-				</div>
-			</div>			
-		</nav>
-		<!-- END:NAVIGATION-MAIN -->
-
 		<!-- CONTENT -->
 		<section class="content">
 			<div class="container">
@@ -152,7 +82,7 @@
 											<a class="black-link" href="#"><h4>Uda Uni Yuk Ikutan Hackathon Sumbar 1.0</h4></a>
 											<p><small>Nov 18, 2015</small></p>
 											<p class="content-posts">Hackathon Sumbar 1.0 – Bangun Sumatera Barat dengan Menciptakan Aplikasi Untuk Ranah Minang – Hackathon Merdeka 2.0 telah ...</p>
-											<a class="btn btn-link no-padding red-link" href="#">Read more</a>
+											<a class="btn no-padding red-link" href="#">Read more</a>
 										</div>
 									</div>
 								</div>
@@ -183,7 +113,7 @@
 											<a class="black-link" href="#"><h4>Yuk Nonton Livestream Chrome Dev Summit 2015</h4></a>
 											<p><small>Nov 16, 2015</small></p>
 											<p class="content-posts">Chrome Dev Summit merupakan event yang diselenggarakan oleh Google untuk mempertemukan para developer ...</p>
-											<a class="btn btn-link no-padding red-link" href="#">Read more</a>
+											<a class="btn no-padding red-link" href="#">Read more</a>
 										</div>
 									</div>
 								</div>
@@ -214,7 +144,7 @@
 											<a class="black-link" href="#"><h4>Punya Skill Python? Yuk Kerja Remote</h4></a>
 											<p class="content-posts"><small>Nov 15, 2015</small></p>
 											<p class="content-posts">Python merupakan bahasa pemrograman yang mudah dibaca dan dapat digunakan untuk berbagai macam proyek. Apa yang harus ...</p>
-											<a class="btn btn-link no-padding red-link" href="#">Read more</a>
+											<a class="btn no-padding red-link" href="#">Read more</a>
 										</div>
 									</div>
 								</div>
@@ -245,7 +175,7 @@
 											<a class="black-link" href="#"><h4>Fitur Terbaru Ruby 2.3</h4></a>
 											<p><small>Nov 14, 2015</small></p>
 											<p class="content-posts">Kemarin preview Ruby 2.3 telah dirilis. Pembaharuan ini membawa beberapa tambahan untuk kelas inti Ruby, termasuk beberapa ...</p>
-											<a class="btn btn-link no-padding red-link" href="#">Read more</a>
+											<a class="btn no-padding red-link" href="#">Read more</a>
 										</div>
 									</div>
 								</div>
@@ -276,7 +206,7 @@
 											<a class="black-link" href="#"><h4>Seberapa Banyak Sih Developer yang Jadi Miliarder?</h4></a>
 											<p><small>Nov 13, 2015</small></p>
 											<p class="content-posts">Siapa sih yang ga mau jadi miliarder? Apalagi jika menjadi miliarder lewat pekerjaan yang dicintai. Pembaca TechNews yang juga ...</p>
-											<a class="btn btn-link no-padding red-link" href="#">Read more</a>
+											<a class="btn no-padding red-link" href="#">Read more</a>
 										</div>
 									</div>
 								</div>
@@ -307,7 +237,7 @@
 											<a class="black-link" href="#"><h4>Seberapa Berhargakah Teknologi-teknologi Open Source Itu?</h4></a>
 											<p><small>Nov 11, 2015</small></p>
 											<p class="content-posts">The Linux Foundation, merupakan organisasi yang berdedikasi untuk mendukung pengembangan Linux dan collaborative ...</p>
-											<a class="btn btn-link no-padding red-link" href="#">Read more</a>
+											<a class="btn no-padding red-link" href="#">Read more</a>
 										</div>
 									</div>
 								</div>
@@ -338,7 +268,7 @@
 											<a class="black-link" href="#"><h4>7 Cara Asyik Belajar Pemrograman Java</h4></a>
 											<p><small>Nov 8, 2015</small></p>
 											<p class="content-posts">Kadang belajar pemrograman Java lewat buku saja membuat rasa kantuk datang. Dengan bahasa buku yang terlalu kaku menjadi ...</p>
-											<a class="btn btn-link no-padding red-link" href="#">Read more</a>
+											<a class="btn no-padding red-link" href="#">Read more</a>
 										</div>
 									</div>
 								</div>
@@ -352,7 +282,7 @@
 								</div>
 								<div class="col-xs-3 col-sm-3 col-md-2">
 									<div class="load-more">
-										<a class="btn btn-link no-padding pull-right text-uppercase text-load-more red-link" href="#">Load more</a>
+										<a class="btn no-padding pull-right text-uppercase text-load-more red-link" href="#">Load more</a>
 									</div>
 								</div>
 							</div>
@@ -444,7 +374,7 @@
 								</div>
 								<div class="col-xs-3 col-sm-6 col-md-4">
 									<div class="load-more">
-										<a class="btn btn-link no-padding pull-right text-uppercase text-load-more red-link" href="#">Load more</a>
+										<a class="btn no-padding pull-right text-uppercase text-load-more red-link" href="#">Load more</a>
 									</div>
 								</div>
 							</div>
@@ -650,60 +580,3 @@
 			</div>
 		</section>
 		<!-- END: CATEGORY -->
-		<!-- ABF -->
-		<section class="ABF">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-4">
-						<div class="footer-title">
-							<h4 class="text-uppercase">About</h4>
-						</div>
-						<div class="footer-leading">
-							<a class="navbar-brand no-padding brand-bottom" href="#"><img class="logo" src="assets/img/technews-logo-white.png" alt="technews"/></a>
-						</div>
-						<p>TechNews adalah media online yang ditujukan untuk programmer Indonesia sebagai tempat bacaan dan sumber informasi dunia pemrograman dan teknologi.</p>
-						<p>Terima kasih telah mengunjungi halaman kami.</p>
-					</div>				
-					<div class="col-md-4">
-						<div class="footer-title">
-							<h4 class="text-uppercase">Contact</h4>
-						</div>
-						<a class="btn btn-link no-padding text-uppercase white-link" href="#">support@TechNews.com</a>			
-						<address>
-							Jl. Tapanuli No.8<br/>
-							Medan<br/>
-							Indonesia
-						</address>			
-					</div>		
-					<div class="col-md-4">
-						<div class="footer-title">
-							<h4 class="text-uppercase">Feedback</h4>
-						</div>						
-						<form class="contact-form">
-							<div class="form-group">
-								<input type="email" class="form-control" placeholder="Email Address"/>
-							</div>
-							<div class="form-group">
-								<textarea class="form-control" rows="3" placeholder="Message for Us..."></textarea>
-							</div>
-							<button type="submit" class="btn pull-right btn-send">SEND</button>
-						</form>
-					</div>				
-				</div>
-			</div>
-		</section>
-		<!-- ABF  -->
-		<!-- FOOTER -->
-		<footer>
-			<div class="container">
-				@2015 All Right reserved. Created by TechNews
-			</div>
-		</footer>
-		<!-- END: FOOTER -->
-	</div>
-	<!-- END: CONTAINER-FLUID -->
-	<script type="text/javascript" src="assets/vendor/jquery/jquery.min.js"></script>
-	<script type="text/javascript" src="assets/vendor/bootstrap/js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="js/script.js"></script>
-</body>
-</html>
