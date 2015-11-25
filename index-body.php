@@ -68,11 +68,11 @@
 													<div class="content-caption">
 														<div class="ic">
 															<img class="img-ic1" src="assets/img/icon/view.png" href="#" alt="view"/>
-															<p class="no-margin text-right number-vc">420</p>
+															<p class="no-margin text-right number-vc">420 views</p>
 														</div>
 														<div class="ic">
 															<img class="img-ic2" src="assets/img/icon/comment.png" href="#" alt="comment"/>
-															<p class="no-margin text-left number-vc">7</p>
+															<p class="no-margin text-left number-vc">7 comments</p>
 														</div>	
 													</div>
 												</div>
@@ -99,11 +99,11 @@
 													<div class="content-caption">
 														<div class="ic">
 															<img class="img-ic1" src="assets/img/icon/view.png" href="#" alt="view"/>
-															<p class="no-margin text-right number-vc">320</p>
+															<p class="no-margin text-right number-vc">320 views</p>
 														</div>
 														<div class="ic">
 															<img class="img-ic2" src="assets/img/icon/comment.png" href="#" alt="comment"/>
-															<p class="no-margin text-left number-vc">4</p>
+															<p class="no-margin text-left number-vc">4 comments</p>
 														</div>	
 													</div>
 												</div>
@@ -130,11 +130,11 @@
 													<div class="content-caption">
 														<div class="ic">
 															<img class="img-ic1" src="assets/img/icon/view.png" href="#" alt="view"/>
-															<p class="no-margin text-right number-vc">500</p>
+															<p class="no-margin text-right number-vc">500 views</p>
 														</div>
 														<div class="ic">
 															<img class="img-ic2" src="assets/img/icon/comment.png" href="#" alt="comment"/>
-															<p class="no-margin text-left number-vc">3</p>
+															<p class="no-margin text-left number-vc">3 comments</p>
 														</div>	
 													</div>
 												</div>
@@ -161,11 +161,11 @@
 													<div class="content-caption">
 														<div class="ic">
 															<img class="img-ic1" src="assets/img/icon/view.png" href="#" alt="view"/>
-															<p class="no-margin text-right number-vc">280</p>
+															<p class="no-margin text-right number-vc">280 views</p>
 														</div>
 														<div class="ic">
 															<img class="img-ic2" src="assets/img/icon/comment.png" href="#" alt="comment"/>
-															<p class="no-margin text-left number-vc">1</p>
+															<p class="no-margin text-left number-vc">1 comments</p>
 														</div>	
 													</div>
 												</div>
@@ -192,11 +192,11 @@
 													<div class="content-caption">
 														<div class="ic">
 															<img class="img-ic1" src="assets/img/icon/view.png" href="#" alt="view"/>
-															<p class="no-margin text-right number-vc">600</p>
+															<p class="no-margin text-right number-vc">600 views</p>
 														</div>
 														<div class="ic">
 															<img class="img-ic2" src="assets/img/icon/comment.png" href="#" alt="comment"/>
-															<p class="no-margin text-left number-vc">10</p>
+															<p class="no-margin text-left number-vc">10 comments</p>
 														</div>	
 													</div>
 												</div>
@@ -223,11 +223,11 @@
 													<div class="content-caption">
 														<div class="ic">
 															<img class="img-ic1" src="assets/img/icon/view.png" href="#" alt="view"/>
-															<p class="no-margin text-right number-vc">422</p>
+															<p class="no-margin text-right number-vc">422 views</p>
 														</div>
 														<div class="ic">
 															<img class="img-ic2" src="assets/img/icon/comment.png" href="#" alt="comment"/>
-															<p class="no-margin text-left number-vc">6</p>
+															<p class="no-margin text-left number-vc">6 comments</p>
 														</div>	
 													</div>
 												</div>
@@ -254,11 +254,11 @@
 													<div class="content-caption">
 														<div class="ic">
 															<img class="img-ic1" src="assets/img/icon/view.png" href="#" alt="view"/>
-															<p class="no-margin text-right number-vc">122</p>
+															<p class="no-margin text-right number-vc">122 views</p>
 														</div>
 														<div class="ic">
 															<img class="img-ic2" src="assets/img/icon/comment.png" href="#" alt="comment"/>
-															<p class="no-margin text-left number-vc">1</p>
+															<p class="no-margin text-left number-vc">1 comments</p>
 														</div>	
 													</div>
 												</div>
@@ -306,11 +306,11 @@
 											<div class="content-caption">
 												<div class="icp">
 													<img class="img-ic1" src="assets/img/icon/view.png" href="#" alt="view"/>
-													<p class="no-margin text-right number-vc">600</p>
+													<p class="no-margin text-right number-vc">600 views</p>
 												</div>
 												<div class="icp">
 													<img class="img-ic2" src="assets/img/icon/comment.png" href="#" alt="comment"/>
-													<p class="no-margin text-left number-vc">10</p>
+													<p class="no-margin text-left number-vc">10 comments</p>
 												</div>	
 											</div>
 										</div>
@@ -329,11 +329,11 @@
 											<div class="content-caption">
 												<div class="icp">
 													<img class="img-ic1" src="assets/img/icon/view.png" href="#" alt="view"/>
-													<p class="no-margin text-right number-vc">502</p>
+													<p class="no-margin text-right number-vc">502 views</p>
 												</div>
 												<div class="icp">
 													<img class="img-ic2" src="assets/img/icon/comment.png" href="#" alt="comment"/>
-													<p class="no-margin text-left number-vc">8</p>
+													<p class="no-margin text-left number-vc">8 comments</p>
 												</div>	
 											</div>
 										</div>
@@ -352,11 +352,11 @@
 											<div class="content-caption">
 												<div class="icp">
 													<img class="img-ic1" src="assets/img/icon/view.png" href="#" alt="view"/>
-													<p class="no-margin text-right number-vc">550</p>
+													<p class="no-margin text-right number-vc">550 views</p>
 												</div>
 												<div class="icp">
 													<img class="img-ic2" src="assets/img/icon/comment.png" href="#" alt="comment"/>
-													<p class="no-margin text-left number-vc">7</p>
+													<p class="no-margin text-left number-vc">7 comments</p>
 												</div>	
 											</div>
 										</div>
@@ -580,3 +580,46 @@
 			</div>
 		</section>
 		<!-- END: CATEGORY -->
+		<!-- ABF -->
+		<section class="ABF">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4">
+						<div class="footer-title">
+							<h4 class="text-uppercase">About</h4>
+						</div>
+						<div class="footer-leading">
+							<a class="navbar-brand no-padding brand-bottom" href="index.php"><img class="logo" src="assets/img/technews-logo-white.png" alt="technews"/></a>
+						</div>
+						<p>TechNews adalah media online yang ditujukan untuk programmer Indonesia sebagai tempat bacaan dan sumber informasi dunia pemrograman dan teknologi.</p>
+						<p>Terima kasih telah mengunjungi halaman kami.</p>
+					</div>				
+					<div class="col-md-4">
+						<div class="footer-title">
+							<h4 class="text-uppercase">Contact</h4>
+						</div>
+						<a class="btn no-padding text-uppercase white-link" href="#">support@TechNews.com</a>			
+						<address>
+							Jl. Tapanuli No.8<br/>
+							Medan<br/>
+							Indonesia
+						</address>			
+					</div>		
+					<div class="col-md-4">
+						<div class="footer-title">
+							<h4 class="text-uppercase">Feedback</h4>
+						</div>						
+						<form class="contact-form">
+							<div class="form-group">
+								<input type="email" class="form-control" placeholder="Email Address"/>
+							</div>
+							<div class="form-group">
+								<textarea class="form-control" rows="3" placeholder="Message for Us..."></textarea>
+							</div>
+							<button type="submit" class="btn pull-right btn-send">SEND</button>
+						</form>
+					</div>				
+				</div>
+			</div>
+		</section>
+		<!-- ABF  -->

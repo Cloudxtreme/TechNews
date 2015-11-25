@@ -14,7 +14,7 @@
 		<section class="breaking-news">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-2 col-sm-3 hidden-xs">
+					<div class="col-md-2 col-sm-3 hidden-xs no-padding-right">
 						<p class="text-uppercase breaking-news-text no-margin">Breaking news</p>
 					</div>
 					<div class="col-md-10 col-sm-9 hidden-xs">
