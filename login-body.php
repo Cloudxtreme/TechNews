@@ -11,7 +11,7 @@
 						  	<div class="form-group form-ls-input">
 							    <input type="password" class="form-control" id="password" placeholder="Password"/>
 						  	</div>
-						  	<button type="button" class="btn text-uppercase btn-ls" id="loginbtn">Log in</button>
+						  	<button type="button" class="btn text-uppercase btn-ls" id="loginbtn"><?php echo ($role == 'myadmin' ? 'Log in as admin' : 'Log in') ?></button>
 						  	<a class="text-center fyp red-link" href="#">Forgot your password?</a>
 						</form>
 					</div>

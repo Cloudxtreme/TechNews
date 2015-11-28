@@ -1,4 +1,4 @@
-		<!-- CATEGORY -->
+		<!-- EACH CATEGORY -->
 		<section class="each-category">
 			<div class="container">
 				<div class="row">

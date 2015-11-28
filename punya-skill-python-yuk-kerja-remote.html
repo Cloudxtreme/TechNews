@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>TechNews</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="assets/img/technews-icon.ico">
+	<link rel="stylesheet" type="text/css" href="assets/vendor/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.min.css">
+</head>
+<body>
+	<div class="container-fluid no-padding">
+		<!-- BREAKING-NEWS -->
+		<section class="breaking-news">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-2 col-sm-3 hidden-xs no-padding-right">
+						<p class="text-uppercase breaking-news-text no-margin">Breaking news</p>
+					</div>
+					<div class="col-md-10 col-sm-9 hidden-xs">
+						<div class="breaking-news-content">
+							<marquee><a class="white-link" href="#">Uda Uni Yuk Ikutan Hackathon Sumbar 1.0</a> | <a class="white-link" href="#">Yuk Nonton Livestream Chrome Dev Summit 2015</a> | <a class="white-link" href="#">Punya Skill Python? Yuk Kerja Remote</a></marquee>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- END: BREAKING-NEWS -->
+		<!-- NAVIGATION-MAIN -->
+		<nav class="nav navbar-default navbar-static-top navbar-main">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-technews-navbar-collapse" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand no-padding" href="index.php"><img class="logo logo-top" src="assets/img/technews-logo.png" alt="technews"/></a>
+				</div>
+				<div class="navbar navbar-collapse navbar-right no-margin collapse" id="bs-technews-navbar-collapse">
+					<ul class="nav navbar-nav">
+						<li class="<?php echo ($page == 'index' ? 'on' : '') ?>"><a href="index.php">Home<span class="sr-only">(current)</span></a></li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Kategori<span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li><a href="#">Popular Posts</a></li>	
+								<li><a href="#">All Posts</a></li>						
+								<li><a href="category_news.html">News</a></li>
+								<li><a href="#">Info</a></li>
+								<li><a href="#">Event</a></li>
+								<li><a href="#">Tips & Trik</a></li>
+								<li><a href="#">Tools</a></li>
+							</ul>
+						</li>		
+						<li class="<?php echo ($page == 'login' ? 'on' : '') ?>"><a href="login.php">Log in</a></li>
+						<li class="<?php echo ($page == 'signup' ? 'on' : '') ?>"><a href="signup.php">Sign up</a></li>		
+					</ul>
+					<form class="navbar-form navbar-right no-margin no-padding navbar-search" role="search">
+						<div class="form-group form-search">
+							<input type="text" class="form-control" placeholder="Search">
+						</div>
+						<button type="submit" class="btn btn-default btn-search"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
+					</form>	
+				</div>
+			</div>			
+		</nav>
+		<!-- END:NAVIGATION-MAIN -->
+		<!-- EACH CERTAIN POSTS -->
+		<section class="each-certain-posts">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-8 col-xs-12">
+						<aside class="certain-posts">
+							<img class="img-responsive img-certain-posts" src="assets/img/kerja_remote-info.jpg" alt="kerja_remote">
+							<h1 class="title-certain-posts">Punya Skill Python? Yuk Kerja Remote</h1>
+							<div class="authorandshare">
+								<div class="row">
+									<div class="col-xs-12 col-sm-11">
+										<div class="row">
+											<div class="col-xs-12 col-sm-9">
+												<p class="no-margin author-certain-posts">Roberto di <a class="red-link" href="category_news.html">Info</a> | <span class="date-category"><small>November 18, 2015</small></span></p>
+											</div>
+											<div class="col-xs-12 col-sm-3">
+												<div class="dropdown share-dropdown">
+													<button class="btn btn-default dropdown-toggle" type="button" id="share-dropdownMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+													<img class="icon-share" src="assets/img/icon/social-share.png"/>
+													<span class="text-uppercase">Share</span>
+													<span class="caret"></span>
+													</button>
+													<ul class="dropdown-menu" aria-labelledby="share-dropdownMenu">
+													<li><a href="#"><img class="icon-share" src="assets/img/icon/facebook-share.png"/>Facebook</a></li>
+													<li><a href="#"><img class="icon-share" src="assets/img/icon/twitter-share.png"/>Twitter</a></li>
+													<li><a href="#"><img class="icon-share" src="assets/img/icon/googleplus-share.png"/>Google Plus</a></li>
+													<li><a href="#"><img class="icon-share" src="assets/img/icon/linkedin-share.png"/>Linkedin</a></li>
+													</ul>
+												</div>
+											</div>
+											<div class="clearfix"></div>
+											<div class="col-xs-12">
+												<div class="content-certain-posts">
+													<p>Python merupakan bahasa pemrograman yang mudah dibaca dan dapat digunakan untuk berbagai macam proyek. Apa yang harus dilakukan setelah menguasai Python? Hal yang bisa kita lakukan salah satunya menambah pendapatan dengan kerja di Software House. Namun bila terhalang masalah geografis, karena jauh dari kota besar, kita bisa mencoba kerja remote.</p>
+													<p>Tren kerja remote mulai menggeliat di Indonesia, namun untuk proyek Python masih jarang. Jika pembaca ingin mencoba kerja remote dengan orang luar negeri, kita bisa mencari peluangnya di situs-situs berikut:</p>
+													<h2>Stack Overflow Careers</h2>
+													<img class="img-responsive" src="assets/img/stackoverflow.png"/>
+													<p>Keuntungan yang kita dapat dalam situs ini antara lain: 1) Jumlah proyek untuk Python cukup banyak, 2) Kualitas para pemberi kerja dengan proyek yang cukup rinci.</p>
+													<p>Kunjungi situs resminya di <a class="red-link" href="#">http://careers.stackoverflow.com</a></p>
+													<h2>FlexJobs</h2>
+													<img class="img-responsive" src="assets/img/flexjobs.jpg"/>
+													<p>Situs ini menawarkan berbagai proyek Python untuk semua posisi. Pasarnya juga bagus dan menggabungkan antara perusahaan dan startup.</p>
+													<p>Kunjungi situs resminya di <a class="red-link" href="#">http://www.flexjobs.com</a></p>
+													<h2>DjangoGigs</h2>
+													<img class="img-responsive" src="assets/img/gigs.png"/>
+													<p>Situs ini juga memberikan peluang proyek Python yang cukup besar. Apabila pembaca menguasai framework Django, ini menjadi poin yang bagus, karena DjangoGigs memang fokus untuk menyediakan pekerjaan bagi pengguna framework Django.</p>
+													<p>Kunjungi situs resminya di <a class="red-link" href="#">http://www.djangogigs.com</a></p>
+													<h2>Skip The Drive</h2>
+													<img class="img-responsive" src="assets/img/skipthedrive.png"/>
+													<p>Jika menggunakan situs ini kita tak perlu melakukan penyaringan proyek. Sedangkan untuk posisi yang disediakan kebanyakan perusahaan maupun agensi.</p>
+													<p>Kunjungi situs resminya di <a class="red-link" href="#">http://www.skipthedrive.com</a></p>
+													<h2>Simply Hired</h2>
+													<img class="img-responsive" src="assets/img/simplyhired.png"/>
+													<p>Simply Hired menyediakan berbagai proyek populer, untuk mencarinya gunakan top ranking. Banyak pilihan yang bisa digunakan untuk penyaringan lokasi maupun kata kunci proyek, diantaranya Remote, Telecommute atau Anywhere. Simply Hired juga menggabungkan perusahaan dan startup untuk posisi pekerjaan yang diinginkan.</p>
+													<p>Kunjungi situs resminya di <a class="red-link" href="#">http://www.simplyhired.com</a></p>
+													<h2>Linkedin</h2>
+													<img class="img-responsive" src="assets/img/linkedin-post.png"/>
+													<p>Situs yang paling dikenal bagi banyak orang. Untuk proyek Python, Linkedin juga menyediakan banyak peluang. Namun biasanya untuk perusahaan saja, dan opsi yang bisa gunakan untuk penyaringan adalah Telecommute.</p>
+													<p>Kunjungi situs resminya di <a class="red-link" href="#">http://www.linkedin.com</a></p>
+													<p>Proyek Python memang masih jarang di Indonesia, namun bukan berarti Python lemah. Sebenarnya proyek Python lebih banyak dicari di level internasional. Buktinya situs-situs tersebut masih menyediakan proyek Python yang melimpah. Nah jika pembaca seorang programmer Python, jangan khawatir peluang akan selalu ada. Selamat bekerja remote.</p>
+												</div>	
+											</div>										
+										</div>
+									</div>
+								</div>
+							</div>
+						</aside>
+					</div>
+					<div class="col-sm-4 col-xs-12">
+						<aside>
+							<div class="recommended-title">
+								<h3 class="text-uppercase no-margin">Artikel Pilihan</h3>
+							</div>
+							<div class="recommended-content">
+								<div class="panel">
+									<div class="panel-body no-padding">
+										<a href="#">
+											<div class="content-item">
+												<div class="thumb">
+													<img src="assets/img/fowab-event.jpg" class="img-responsive" alt="fowab"/>
+												</div>
+												<div class="content-caption">
+													<div class="icp">
+														<img class="img-ic1" src="assets/img/icon/view.png" href="#" alt="view"/>
+														<p class="no-margin text-right number-vc">600 views</p>
+													</div>
+													<div class="icp">
+														<img class="img-ic2" src="assets/img/icon/comment.png" href="#" alt="comment"/>
+														<p class="no-margin text-left number-vc">10 comments</p>
+													</div>	
+												</div>
+											</div>
+										</a>										
+										<a class="black-link" href="#"><h4>Bandung Developer Day, Harinya Para Developer Kota Bandung</h4></a>
+									</div>
+								</div>	
+							</div>						
+							<div class="recommended-content">
+								<div class="panel">
+									<div class="panel-body no-padding">
+										<a href="#">
+											<div class="content-item">
+												<div class="thumb">
+													<img src="assets/img/header-codepolitan-logo-python-tools.jpg" class="img-responsive" alt="header-codepolitan-logo-python-tools"/>
+												</div>
+												<div class="content-caption">
+													<div class="icp">
+														<img class="img-ic1" src="assets/img/icon/view.png" href="#" alt="view"/>
+														<p class="no-margin text-right number-vc">600 views</p>
+													</div>
+													<div class="icp">
+														<img class="img-ic2" src="assets/img/icon/comment.png" href="#" alt="comment"/>
+														<p class="no-margin text-left number-vc">10 comments</p>
+													</div>	
+												</div>
+											</div>
+										</a>										
+										<a class="black-link" href="#"><h4>Empat IDE Gratis Untuk Python</h4></a>
+									</div>
+								</div>	
+							</div>						
+							<div class="recommended-content">
+								<div class="panel">
+									<div class="panel-body no-padding">
+										<a href="#">
+											<div class="content-item">
+												<div class="thumb">
+													<img src="assets/img/cover_header-skill-programming-tipsdantrik.jpg" class="img-responsive" alt="cover_header-skill-programming-tipsdantrik"/>
+												</div>
+												<div class="content-caption">
+													<div class="icp">
+														<img class="img-ic1" src="assets/img/icon/view.png" href="#" alt="view"/>
+														<p class="no-margin text-right number-vc">600 views</p>
+													</div>
+													<div class="icp">
+														<img class="img-ic2" src="assets/img/icon/comment.png" href="#" alt="comment"/>
+														<p class="no-margin text-left number-vc">10 comments</p>
+													</div>	
+												</div>
+											</div>
+										</a>										
+										<a class="black-link" href="#"><h4>Fitur Umum Sebuah CRUD yang Wajib Dikuasai Pemula</h4></a>
+									</div>
+								</div>	
+							</div>						
+							<div class="recommended-content">
+								<div class="panel">
+									<div class="panel-body no-padding">
+										<a href="#">
+											<div class="content-item">
+												<div class="thumb">
+													<img src="assets/img/robovm-tools.jpg" class="img-responsive" alt="robovm"/>
+												</div>
+												<div class="content-caption">
+													<div class="icp">
+														<img class="img-ic1" src="assets/img/icon/view.png" href="#" alt="view"/>
+														<p class="no-margin text-right number-vc">600 views</p>
+													</div>
+													<div class="icp">
+														<img class="img-ic2" src="assets/img/icon/comment.png" href="#" alt="comment"/>
+														<p class="no-margin text-left number-vc">10 comments</p>
+													</div>	
+												</div>
+											</div>
+										</a>										
+										<a class="black-link" href="#"><h4>RoboVM Kini Tak Lagi Open Source</h4></a>
+									</div>
+								</div>	
+							</div>						
+						</aside>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- END: CATEGORY -->		
+		<!-- FOOTER -->
+		<footer class="<?php echo ($pos == 'bot' ? 'navbar-fixed-bottom' : '') ?>">
+			<div class="container">
+				@2015 All Right reserved. Created by TechNews
+			</div>
+		</footer>
+		<!-- END: FOOTER -->
+	</div>
+	<!-- END: CONTAINER-FLUID -->
+	<script type="text/javascript" src="assets/vendor/jquery/jquery.min.js"></script>
+	<script type="text/javascript" src="assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
