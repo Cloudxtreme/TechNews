@@ -56,7 +56,7 @@
 							<div class="posts-hght">
 								<h3 class="text-uppercase">All Posts</h3>
 							</div>
-							<div class="panel panel-default">
+							<div class="panel panel-default mrgn-btm">
 							  	<div class="panel-body">
 							  		<div class="row">
 										<div class="col-sm-6">
@@ -87,7 +87,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="panel panel-default">
+							<div class="panel panel-default mrgn-btm">
 							  	<div class="panel-body">
 							  		<div class="row">
 										<div class="col-sm-6">
@@ -118,7 +118,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="panel panel-default">
+							<div class="panel panel-default mrgn-btm">
 							  	<div class="panel-body">
 							  		<div class="row">
 										<div class="col-sm-6">
@@ -149,7 +149,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="panel panel-default">
+							<div class="panel panel-default mrgn-btm">
 							  	<div class="panel-body">
 							  		<div class="row">
 										<div class="col-sm-6">
@@ -180,7 +180,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="panel panel-default">
+							<div class="panel panel-default mrgn-btm">
 							  	<div class="panel-body">
 							  		<div class="row">
 										<div class="col-sm-6">
@@ -211,7 +211,7 @@
 									</div>
 								</div>
 							</div>							
-							<div class="panel panel-default">
+							<div class="panel panel-default mrgn-btm">
 							  	<div class="panel-body">
 							  		<div class="row">
 										<div class="col-sm-6">
@@ -242,7 +242,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="panel panel-default">
+							<div class="panel panel-default mrgn-btm">
 							  	<div class="panel-body">
 							  		<div class="row">
 										<div class="col-sm-6">
@@ -296,7 +296,7 @@
 							<div class="posts-hght">
 								<h3 class="text-uppercase">Popular Posts</h3>
 							</div>							
-							<div class="panel panel-default">
+							<div class="panel panel-default mrgn-btm">
 								<div class="panel-body">
 									<a href="#">
 										<div class="content-item">
@@ -315,11 +315,11 @@
 											</div>
 										</div>
 									</a>										
-									<h4>Seberapa Berhargakah Teknologi-teknologi Open Source Itu?</h4>
+									<a class="black-link" href="#"><h4>Seberapa Berhargakah Teknologi-teknologi Open Source Itu?</h4></a>
 									<p class="author">by Sherly</p>
 								</div>
 							</div>							
-							<div class="panel panel-default">
+							<div class="panel panel-default mrgn-btm">
 								<div class="panel-body">
 									<a href="#">
 										<div class="content-item">
@@ -338,11 +338,11 @@
 											</div>
 										</div>
 									</a>										
-									<h4>Fitur Umum Sebuah CRUD yang Wajib Dikuasai Pemula</h4>
+									<a class="black-link" href="#"><h4>Fitur Umum Sebuah CRUD yang Wajib Dikuasai Pemula</h4></a>
 									<p class="author">by Alvin</p>
 								</div>
 							</div>
-							<div class="panel panel-default">
+							<div class="panel panel-default mrgn-btm">
 								<div class="panel-body">
 									<a href="#">
 										<div class="content-item">
@@ -361,7 +361,7 @@
 											</div>
 										</div>
 									</a>										
-									<h4>Library-Library Ruby untuk Membuat Chart dan Graph</h4>
+									<a class="black-link" href="#"><h4>Library-Library Ruby untuk Membuat Chart dan Graph</h4></a>
 									<p class="author">by Fausta</p>
 								</div>
 							</div>
@@ -469,7 +469,7 @@
 							<div class="posts-hght">
 								<h3 class="text-uppercase">Latest Comments</h3>
 							</div>
-							<div class="panel panel-default">
+							<div class="panel panel-default mrgn-btm">
 								<div class="panel-body">
 									<p>Give us your feedback</p>
 									<div class="border-dashed"></div>

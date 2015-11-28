@@ -46,7 +46,7 @@
 							<ul class="dropdown-menu">
 								<li><a href="#">Popular Posts</a></li>	
 								<li><a href="#">All Posts</a></li>						
-								<li><a href="#">News</a></li>
+								<li class="<?php echo ($page == 'category_news' ? 'on' : '') ?>"><a href="category_news.php">News</a></li>
 								<li><a href="#">Info</a></li>
 								<li><a href="#">Event</a></li>
 								<li><a href="#">Tips & Trik</a></li>

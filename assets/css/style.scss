@@ -231,7 +231,7 @@ body{
         font-size: 1.25em;
     }
 }
-.panel{
+.mrgn-btm{
     margin-bottom: 5px;
 }
 .carousel-caption{
@@ -357,7 +357,6 @@ a.thumbnail:hover{
     }
 }
 .ic{
-    height: 100%;
     width: 49.2%;
     display: inline-block;
     color: $white;  
@@ -627,3 +626,97 @@ footer{
     @extend .login;
 }
 /* END: LOG IN AND SIGN UP*/
+/* CATEGORY NEWS */
+.category-title{
+    border-bottom: 1px solid $light-black;
+    height: 46px;
+    >h2{
+        line-height: 46px;
+    }
+}
+.author-category{
+    margin-top: 5px;
+}
+.date-category{
+    color: lighten($black, 15%);
+}
+.category-content{
+    margin-top: 20px;
+}
+.each-category-content{
+    color: lighten($black, 15%);    
+}
+.panel-body-custom{
+    padding-right: 10%;
+    >.btn{
+        margin-bottom: 20px;
+    }
+}
+.recommended-title{
+    @extend .category-title;
+    border: none;
+    >h3{
+        line-height: 46px;
+    }
+}
+.panel-body-custom{
+    .ic{
+        margin-top: 25%;
+    }
+    .img-ic1{
+        margin-left: 65%;
+    }
+}
+@media screen and (min-width: 992px) and (max-width: 1199px){
+    .panel-body-custom{
+        .img-ic1{
+            margin-left: 60%;
+        }
+    }    
+}
+@media screen and (min-width: 768px) and (max-width: 991px){
+    .panel-body-custom{
+        .img-ic1{
+            margin-left: 55%;
+        }
+    }    
+}
+@media screen and (min-width: 768px) {
+    .category-content{
+        font-size: 1.17em;
+    }
+}
+@media screen and (max-width: 767px){
+    .panel-body-custom{
+        padding-right: 0;
+        h2{
+            font-size: 1.75em;
+        }
+    }    
+}
+/* PAGINATION */
+.nav-pagination{
+    padding-right: 10%;
+    .pagination{
+        margin: 30px 0;        
+        >li{
+            >a{
+                color: $black;                
+            }
+        }
+        .on{
+            >a{
+                background-color: $red;
+                color: $white;                    
+            }
+        }
+
+    }
+}
+@media screen and (max-width: 767px){
+    .nav-pagination{
+        padding-right: 0;
+    }    
+}
+/* END: PAGINATION */
+/* END: CATEGORY NEWS */
