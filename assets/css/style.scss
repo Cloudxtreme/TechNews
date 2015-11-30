@@ -757,6 +757,10 @@ footer{
     h2{
         color: $black;
         font-weight: 500;
+        margin: 30px 0 20px 0;
+    }
+    .pa-content{
+        margin-bottom: 20px;
     }
 }
 @media screen and (max-width: 767px){
@@ -774,5 +778,51 @@ footer{
         float: none;
         line-height: 50px;
     }
+}
+/* RELATED ARTICLE */
+.related-posts{
+    border-top: 1px solid $light-black;
+    border-bottom: 1px solid $light-black;
+    h3{
+        margin: 20px 0;
+    }
+    .panel{
+        border:none;
+        @include box-shadow;
+    }
+}
+/* END: RELATED ARTICLE */
+.comments-header{
+    border-bottom: 1px solid $light-black;
+    color: $black;
+    div{
+        display: inline-block;
+    }
+}
+.comments-share{
+    margin: 15px 0;
+}
+.img-comment{
+    width: 48px;
+}
+.each-comments-content{
+    margin-bottom: 20px;
+}
+.each-comments-person{
+    display: inline-block;    
+}
+.each-comments-form{
+    @extend .each-comments-person;
+    vertical-align: middle;
+    margin-left: 2%;
+    width: 80%;
+    .form-control{
+        background: transparent;
+        @include border-radius;
+        &:focus{
+            border-color: $light-black;
+        }
+    }
+
 }
 /* END: CERTAIN POSTS */

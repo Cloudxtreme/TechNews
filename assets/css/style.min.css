@@ -614,7 +614,10 @@ footer {
   color: #727275; }
   .content-certain-posts h2 {
     color: #4c4c4e;
-    font-weight: 500; }
+    font-weight: 500;
+    margin: 30px 0 20px 0; }
+  .content-certain-posts .pa-content {
+    margin-bottom: 20px; }
 
 @media screen and (max-width: 767px) {
   .title-certain-posts {
@@ -629,6 +632,51 @@ footer {
   .share-dropdown {
     float: none;
     line-height: 50px; } }
+/* RELATED ARTICLE */
+.related-posts {
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd; }
+  .related-posts h3 {
+    margin: 20px 0; }
+  .related-posts .panel {
+    border: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    -o-box-shadow: none;
+    box-shadow: none; }
+
+/* END: RELATED ARTICLE */
+.comments-header {
+  border-bottom: 1px solid #ddd;
+  color: #4c4c4e; }
+  .comments-header div {
+    display: inline-block; }
+
+.comments-share {
+  margin: 15px 0; }
+
+.img-comment {
+  width: 48px; }
+
+.each-comments-content {
+  margin-bottom: 20px; }
+
+.each-comments-person, .each-comments-form {
+  display: inline-block; }
+
+.each-comments-form {
+  vertical-align: middle;
+  margin-left: 2%;
+  width: 80%; }
+  .each-comments-form .form-control {
+    background: transparent;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -o-border-radius: 0px;
+    border-radius: 0px; }
+    .each-comments-form .form-control:focus {
+      border-color: #ddd; }
+
 /* END: CERTAIN POSTS */
 
 /*# sourceMappingURL=style.min.css.map */
