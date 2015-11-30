@@ -825,4 +825,13 @@ footer{
     }
 
 }
+.each-spesific-comments{
+    @extend .each-comments-form;
+    .time-comment{
+        color: lighten($black, 15%);
+    }
+}
+.comments-content-reply{
+    margin-left: 60px;
+}
 /* END: CERTAIN POSTS */

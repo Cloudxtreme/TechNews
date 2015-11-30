@@ -6,7 +6,7 @@
 						<div id="technews-slider" class="carousel slide" data-ride="carousel">
 							<div class="carousel-inner" role="listbox">
 								<div class="item active">
-									<a href="punya-skill-python-yuk-kerja-remote.html">
+									<a href="punya-skill-python-yuk-kerja-remote.php">
 										<div class="carousel-caption no-padding">
 											<h1 class="text-left">Punya Skill Python? Yuk Kerja Remote</h1>
 											<p class="text-left">Posted on November 18, by Roberto</p>

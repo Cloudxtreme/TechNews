@@ -661,21 +661,27 @@ footer {
 .each-comments-content {
   margin-bottom: 20px; }
 
-.each-comments-person, .each-comments-form {
+.each-comments-person, .each-comments-form, .each-spesific-comments {
   display: inline-block; }
 
-.each-comments-form {
+.each-comments-form, .each-spesific-comments {
   vertical-align: middle;
   margin-left: 2%;
   width: 80%; }
-  .each-comments-form .form-control {
+  .each-comments-form .form-control, .each-spesific-comments .form-control {
     background: transparent;
     -webkit-border-radius: 0px;
     -moz-border-radius: 0px;
     -o-border-radius: 0px;
     border-radius: 0px; }
-    .each-comments-form .form-control:focus {
+    .each-comments-form .form-control:focus, .each-spesific-comments .form-control:focus {
       border-color: #ddd; }
+
+.each-spesific-comments .time-comment {
+  color: #727275; }
+
+.comments-content-reply {
+  margin-left: 60px; }
 
 /* END: CERTAIN POSTS */
 
