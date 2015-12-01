@@ -231,6 +231,9 @@ body{
         font-size: 1.25em;
     }
 }
+.feedback-time{
+    color: lighten($black, 15%);
+}
 .mrgn-btm{
     margin-bottom: 5px;
 }
@@ -408,17 +411,17 @@ a.thumbnail:hover{
     }
     .panel{
         h4{
-            font-size: 1.75em;
+            font-size: 1.25em;
         }
         p{
-            font-size: 1.25em;
+            font-size: 1.17em;
         }
         a{
             @extend p;
         }
     }
     #comment{
-        font-size: 1.25em;
+        font-size: 1.17em;
     }
     .carousel-control.left{
         right: 9.5%;
@@ -500,11 +503,11 @@ a.thumbnail:hover{
     .thumb-rnd-item{
         .thumb-rnd-caption{
             .rnd-title{
-                font-size: 1.75em;
-                padding-bottom: 2.5%;
+                font-size: 1.25em;
+                padding-bottom: 2%;
             }
             .rnd-info{
-                font-size: 1.17em;
+                font-size: 1em;
             }
         }
     }
@@ -805,15 +808,18 @@ footer{
 .img-comment{
     width: 48px;
 }
+#img-person{
+    margin-top: 4px;
+}
 .each-comments-content{
     margin-bottom: 20px;
 }
 .each-comments-person{
-    display: inline-block;    
+    display: inline-block;   
 }
 .each-comments-form{
     @extend .each-comments-person;
-    vertical-align: middle;
+    vertical-align: top;
     margin-left: 2%;
     width: 80%;
     .form-control{
@@ -827,6 +833,7 @@ footer{
 }
 .each-spesific-comments{
     @extend .each-comments-form;
+    vertical-align: middle;    
     .time-comment{
         color: lighten($black, 15%);
     }
@@ -834,4 +841,46 @@ footer{
 .comments-content-reply{
     margin-left: 60px;
 }
+.text-send-comment{
+    padding: 6px 0;
+}
+@media screen and (max-width: 767px){
+    #img-person{
+        margin-top: 8px;
+    }
+    .text-send-comment{
+        font-size: 1.25em;
+    }
+}
 /* END: CERTAIN POSTS */
+/* SEARCH */
+.search-keyword{
+    font-style: italic;
+    color: $red;
+}
+.each-search:last-child{
+    .panel{
+        border:none;
+        @include box-shadow;
+    }
+}
+.title-search{
+    margin: 10px 0 30px 0;
+}
+.search{
+    .nav-pagination{
+        padding-right: 0;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 991px){
+    .each-search{
+        .panel{
+            .panel-body{
+                .img-ic1{
+                    margin-left: 20%;
+                }
+            }    
+        }
+    }
+}
+/* END: SEARCH */

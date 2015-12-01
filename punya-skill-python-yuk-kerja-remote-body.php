@@ -117,7 +117,7 @@
 							<!-- END: RELATED POSTS -->
 							<div class="comments-header">
 								<div class="total-comments"><h4>3 Comments</h4></div>
-								<div class="pull-right login-to-comment"><a class="red-link" href="#"><h4>Log in</h4></a></div>
+								<div class="pull-right login-to-comment"><a class="red-link" href="login.php"><h4>Log in</h4></a></div>
 							</div>
 							<div class="comments-share">
 								<a class="red-link" href="#">
@@ -127,10 +127,11 @@
 							<div class="comments-content">
 								<div class="each-comments-content">
 									<div class="each-comments-person">
-										<img src="assets/img/person.png" class="img-circle img-comment" alt="person"/>
+										<img src="assets/img/person.png" id="img-person" class="img-circle img-comment" alt="person"/>
 									</div>
 									<form class="each-comments-form">
 										<textarea class="form-control" id="comment" rows="2" placeholder="Join the discussion..."></textarea>
+										<button type="submit" class="btn btn-link no-padding pull-right text-uppercase red-link text-send-comment" href="#">Send</button>
 									</form>
 								</div>
 							</div>

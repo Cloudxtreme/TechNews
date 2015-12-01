@@ -163,6 +163,9 @@ body {
     line-height: 60px;
     font-size: 1.25em; }
 
+.feedback-time {
+  color: #727275; }
+
 .mrgn-btm {
   margin-bottom: 5px; }
 
@@ -332,12 +335,12 @@ a.thumbnail:hover {
     font-size: 1.25em; }
 
   .panel h4 {
-    font-size: 1.75em; }
-  .panel p, .panel a {
     font-size: 1.25em; }
+  .panel p, .panel a {
+    font-size: 1.17em; }
 
   #comment {
-    font-size: 1.25em; }
+    font-size: 1.17em; }
 
   .carousel-control.left {
     right: 9.5%; }
@@ -397,10 +400,10 @@ a.thumbnail:hover {
     opacity: 1; }
 
   .thumb-rnd-item .thumb-rnd-caption .rnd-title {
-    font-size: 1.75em;
-    padding-bottom: 2.5%; }
+    font-size: 1.25em;
+    padding-bottom: 2%; }
   .thumb-rnd-item .thumb-rnd-caption .rnd-info {
-    font-size: 1.17em; } }
+    font-size: 1em; } }
 /* END: CATEGORY */
 /* ABF */
 .ABF {
@@ -658,6 +661,9 @@ footer {
 .img-comment {
   width: 48px; }
 
+#img-person {
+  margin-top: 4px; }
+
 .each-comments-content {
   margin-bottom: 20px; }
 
@@ -665,7 +671,7 @@ footer {
   display: inline-block; }
 
 .each-comments-form, .each-spesific-comments {
-  vertical-align: middle;
+  vertical-align: top;
   margin-left: 2%;
   width: 80%; }
   .each-comments-form .form-control, .each-spesific-comments .form-control {
@@ -677,12 +683,45 @@ footer {
     .each-comments-form .form-control:focus, .each-spesific-comments .form-control:focus {
       border-color: #ddd; }
 
-.each-spesific-comments .time-comment {
-  color: #727275; }
+.each-spesific-comments {
+  vertical-align: middle; }
+  .each-spesific-comments .time-comment {
+    color: #727275; }
 
 .comments-content-reply {
   margin-left: 60px; }
 
+.text-send-comment {
+  padding: 6px 0; }
+
+@media screen and (max-width: 767px) {
+  #img-person {
+    margin-top: 8px; }
+
+  .text-send-comment {
+    font-size: 1.25em; } }
 /* END: CERTAIN POSTS */
+/* SEARCH */
+.search-keyword {
+  font-style: italic;
+  color: #ed2b23; }
+
+.each-search:last-child .panel {
+  border: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  -o-box-shadow: none;
+  box-shadow: none; }
+
+.title-search {
+  margin: 10px 0 30px 0; }
+
+.search .nav-pagination {
+  padding-right: 0; }
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .each-search .panel .panel-body .img-ic1 {
+    margin-left: 20%; } }
+/* END: SEARCH */
 
 /*# sourceMappingURL=style.min.css.map */

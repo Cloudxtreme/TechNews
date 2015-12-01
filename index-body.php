@@ -480,7 +480,7 @@
 											</div>	
 											<div class="col-xs-10 col-sm-8 col-md-9">
 												<p>Jansen</p>
-												<p>3 hours ago</p>
+												<p class="feedback-time">3 hours ago</p>
 												<p>Sangat bermanfaat sekali. Maju terus TechNews!</p>
 												<div class="border-default"></div>
 											</div>
@@ -493,7 +493,7 @@
 											</div>	
 											<div class="col-xs-10 col-sm-8 col-md-9">
 												<p>Christian</p>
-												<p>4 hours ago</p>
+												<p class="feedback-time">4 hours ago</p>
 												<p>Terima kasih TechNews!</p>
 												<div class="border-default"></div>
 											</div>
@@ -609,15 +609,15 @@
 						<div class="footer-title">
 							<h4 class="text-uppercase">Feedback</h4>
 						</div>						
-						<form class="contact-form">
+						<div class="contact-form">
 							<div class="form-group">
 								<input type="email" class="form-control" placeholder="Email Address"/>
 							</div>
 							<div class="form-group">
 								<textarea class="form-control" rows="3" placeholder="Message for Us..."></textarea>
 							</div>
-							<button type="submit" class="btn pull-right btn-send">SEND</button>
-						</form>
+							<button type="submit" class="btn pull-right btn-send" id="sendBtn">SEND</button>
+						</div>
 					</div>				
 				</div>
 			</div>

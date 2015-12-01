@@ -6,6 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="shortcut icon" href="assets/img/technews-icon.ico">
 	<link rel="stylesheet" type="text/css" href="assets/vendor/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/vendor/sweetalert/sweetalert.css">	
 	<link rel="stylesheet" type="text/css" href="assets/css/style.min.css">
 </head>
 <body>
@@ -19,7 +20,7 @@
 					</div>
 					<div class="col-md-10 col-sm-9 hidden-xs">
 						<div class="breaking-news-content">
-							<marquee><a class="white-link" href="#">Uda Uni Yuk Ikutan Hackathon Sumbar 1.0</a> | <a class="white-link" href="#">Yuk Nonton Livestream Chrome Dev Summit 2015</a> | <a class="white-link" href="#">Punya Skill Python? Yuk Kerja Remote</a></marquee>
+							<marquee><a class="white-link" href="#">Uda Uni Yuk Ikutan Hackathon Sumbar 1.0</a> | <a class="white-link" href="#">Yuk Nonton Livestream Chrome Dev Summit 2015</a> | <a class="white-link" href="punya-skill-python-yuk-kerja-remote.php">Punya Skill Python? Yuk Kerja Remote</a></marquee>
 						</div>
 					</div>
 				</div>
@@ -56,9 +57,9 @@
 						<li class="<?php echo ($page == 'login' ? 'on' : '') ?>"><a href="login.php">Log in</a></li>
 						<li class="<?php echo ($page == 'signup' ? 'on' : '') ?>"><a href="signup.php">Sign up</a></li>		
 					</ul>
-					<form class="navbar-form navbar-right no-margin no-padding navbar-search" role="search">
+					<form class="navbar-form navbar-right no-margin no-padding navbar-search" method="GET" action="search.php" role="search">
 						<div class="form-group form-search">
-							<input type="text" class="form-control" placeholder="Search">
+							<input type="text" class="form-control" id="search" placeholder="Search" name="s" value= "<?php echo ($keyword != null ? $keyword : '') ?>">
 						</div>
 						<button type="submit" class="btn btn-default btn-search"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
 					</form>	

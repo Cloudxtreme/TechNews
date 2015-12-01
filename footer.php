@@ -8,6 +8,8 @@
 	</div>
 	<!-- END: CONTAINER-FLUID -->
 	<script type="text/javascript" src="assets/vendor/jquery/jquery.min.js"></script>
+	<script type="text/javascript" src="assets/vendor/loadingoverlay/loadingoverlay.min.js"></script>
+	<script type="text/javascript" src="assets/vendor/sweetalert/sweetalert.min.js"></script>
 	<script type="text/javascript" src="assets/vendor/bootstrap/js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="js/script.js"></script>
 </body>
