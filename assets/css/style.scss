@@ -590,8 +590,12 @@ footer{
     @include box-shadow;
     height: 400px;
 }
-.form-ls{
-    .form-ls-input{
+.form-lsa{
+    .form-lsa-input{
+        label{
+            font-size: 1.17em;
+            color: lighten($black, 15%);
+        }        
         margin-bottom: 20px;
         .form-control{
             background: transparent;        
@@ -605,7 +609,7 @@ footer{
         }
     }
 }
-.btn-ls{
+.btn-lsa{
     display: block;
     width: 100%;
     background: $red;
@@ -621,7 +625,7 @@ footer{
 .fyp{
     display: block;
 }
-.text-ls{
+.text-lsa{
     margin: 25px 0;
     font-weight: 500;
 }
@@ -884,3 +888,17 @@ footer{
     }
 }
 /* END: SEARCH */
+/* ACCOUNT */
+.panel-custom-acc{
+    max-width: 400px;
+    margin: 0 auto;
+    @include box-shadow;
+}
+.img-upload{
+    width: 128px;
+    height: 128px;
+}
+#uploadBtn{
+    color: lighten($black, 15%);
+}
+/* END: ACCOUNT */

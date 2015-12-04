@@ -482,9 +482,12 @@ footer {
   box-shadow: none;
   height: 400px; }
 
-.form-ls .form-ls-input {
+.form-lsa .form-lsa-input {
   margin-bottom: 20px; }
-  .form-ls .form-ls-input .form-control {
+  .form-lsa .form-lsa-input label {
+    font-size: 1.17em;
+    color: #727275; }
+  .form-lsa .form-lsa-input .form-control {
     background: transparent;
     -webkit-border-radius: 0px;
     -moz-border-radius: 0px;
@@ -493,10 +496,10 @@ footer {
     color: #4c4c4e;
     padding: 20px 12px;
     font-size: 1.17em; }
-    .form-ls .form-ls-input .form-control:focus {
+    .form-lsa .form-lsa-input .form-control:focus {
       border-color: #ddd; }
 
-.btn-ls {
+.btn-lsa {
   display: block;
   width: 100%;
   background: #ed2b23;
@@ -504,7 +507,7 @@ footer {
   margin-bottom: 25px;
   padding: 10px;
   font-size: 1.17em; }
-  .btn-ls:hover {
+  .btn-lsa:hover {
     -webkit-transition: all 0.4s ease 0s;
     -moz-transition: all 0.4s ease 0s;
     -o-transition: all 0.4s ease 0s;
@@ -514,7 +517,7 @@ footer {
 .fyp {
   display: block; }
 
-.text-ls {
+.text-lsa {
   margin: 25px 0;
   font-weight: 500; }
 
@@ -723,5 +726,22 @@ footer {
   .each-search .panel .panel-body .img-ic1 {
     margin-left: 20%; } }
 /* END: SEARCH */
+/* ACCOUNT */
+.panel-custom-acc {
+  max-width: 400px;
+  margin: 0 auto;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  -o-box-shadow: none;
+  box-shadow: none; }
+
+.img-upload {
+  width: 128px;
+  height: 128px; }
+
+#uploadBtn {
+  color: #727275; }
+
+/* END: ACCOUNT */
 
 /*# sourceMappingURL=style.min.css.map */
